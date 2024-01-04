@@ -39,10 +39,10 @@ blueprint:
       description: Select the remote control you wish to use.
       selector:
         device:
-          filter:
+#          filter:
 #           - integration: Zigbee Home Automation
-            - manufacturer: IKEA of Sweden
-              model: TRADFRI remote control
+#            - manufacturer: IKEA of Sweden
+#              model: TRADFRI remote control
     light:
       name: Light
       description: Select the light entity you wish to control.
