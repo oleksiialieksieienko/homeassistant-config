@@ -40,8 +40,8 @@ blueprint:
       selector:
         device:
           filter:
-            - integration: Zigbee Home Automation
-              manufacturer: IKEA of Sweden
+#           - integration: Zigbee Home Automation
+            - manufacturer: IKEA of Sweden
               model: TRADFRI remote control
     light:
       name: Light
